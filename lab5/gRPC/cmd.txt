@@ -1,0 +1,3 @@
+./protoc -I. --java_out=gen person.proto
+./protoc -I. --java_out=gen --plugin=protoc-gen-grpc-java=/home/krzych/Documents/GitHub/SystemyRozproszone/lab5/gRPC/protoc-gen-grpc-java-1.62.2-linux-x86_64.exe --grpc-java_out=gen calculator.proto
+./protoc -I. --java_out=gen --plugin=protoc-gen-grpc-java=/home/krzych/Documents/GitHub/SystemyRozproszone/lab5/gRPC/protoc-gen-grpc-java-1.62.2-linux-x86_64.exe --grpc-java_out=gen streaming.proto

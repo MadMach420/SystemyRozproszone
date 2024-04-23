@@ -1,0 +1,9 @@
+{
+  "name": "foxes_restful",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.3",
+    "phe": "^0.6.0"
+  }
+}

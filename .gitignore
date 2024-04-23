@@ -1,0 +1,9 @@
+.idea
+venv
+node_modules
+gen
+generated
+gen-java
+lib
+out
+
